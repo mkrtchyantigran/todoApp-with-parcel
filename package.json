@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "server": "json-server --watch db.json --port 3333"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "parcel": "latest"
+  },
+  "type": "module",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}

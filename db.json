@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "53e7c4f0-b458-4b0c-8945-e3125c3281a9",
+      "task": "Learn JS",
+      "isCompleted": false
+    },
+    {
+      "id": "a1b1edbf-c8a0-4aeb-9235-6d7ebc1fe17f",
+      "task": "Learn TypeScript",
+      "isCompleted": true
+    },
+    {
+      "id": "ff10cf18-92ef-4e6f-af44-93a758677b28",
+      "task": "Learn Python",
+      "isCompleted": false
+    }
+  ]
+}

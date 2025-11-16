@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white
+}
+
+#app {
+  max-width: 580px;
+  margin: 64px auto;
+  padding: 16px;
+  background: #0d6058;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    input {
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: none;
+    }
+
+    button {
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: none;
+      color: #ffff;
+      background: #18988b;
+      cursor: pointer;
+
+      &:hover {
+        background: #169084;
+      }
+    }
+
+
+  }
+
+  #tasks-list {
+    .tasks-list_item {
+      margin: 16px 0px 0px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 8px;
+
+      label {
+        display: flex;
+        gap: 8px;
+        cursor: pointer;
+        
+        input {
+          cursor: pointer;
+        }
+
+        h3 {
+          font-weight: normal;
+        }
+
+      }
+
+      button {
+        padding: 4px 12px;
+        background: rgb(168, 6, 6);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        &:disabled {
+          background: gray
+        }
+      }
+    }
+
+    .server-disabled-text {
+      color: red;
+    }
+
+  }
+}
